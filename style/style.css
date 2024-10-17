@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    box-sizing: content-box;
+}
+
+p{
+    color: rgb(255, 255, 255);
+
+}
+
+.nav{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav:hover{
+    color: rgb(17, 17, 17)
+}
+
+.nav-bar{
+    padding: 1em;
+    text-align: center;
+}
+
+.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: rgb(255, 242, 218);
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0px;
+}
+
+h2{
+    color: rgb(255, 242, 218);
+    text-align: center;
+    font-size: 30px;
+}
+
+img{
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+header{
+    background-color: rgba(53, 67, 145, 0.808);
+    border-radius: 30px;
+}
+
+body{
+    background-image: url(/assets/images/BACKGROUND.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+.informacion{
+    background-color: rgba(53, 67, 145, 0.808);
+    border-radius: 20px;
+    margin: 10 auto;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.informacion p{
+    color: aliceblue;
+    text-align: center;
+}
+
+#foto_personal{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+#foto_hob{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+#foto_fam{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 20px;
+
+}
+
+#foto_her{
+    width: 300px;
+    height: 300px;
+    display:inline-block;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.descripcion{
+    background-color: #f1f1f121 ;
+    padding: 10px;
+    border-radius: 10px;
+}
