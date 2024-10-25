@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #93d9e9;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+h2{
+    padding: 20px;
+    background-color: salmon;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.cajas{
+    display: flex;
+    margin: 3px;
+    text-align: center;
+    height: 480px;
+}
+
+.caja-info{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.caja-info p{
+    padding: 10px;
+}
+
+button{
+    background-color: white;
+    height: 50px;
+    width: 100px;
+}
