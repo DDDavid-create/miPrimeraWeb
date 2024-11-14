@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23282b;
+    box-shadow: 0px 10px 0px 0px #0098f3;
+}
+
+header h2{
+    color: white;
+    margin: 5px;
+}
+
+
+span{
+    color: #0098f3;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 20px;
+}
+
+a:hover{
+    color: #0098f3;
+}
+
+
+/*ENCABEZADO CON IMAGEN*/
+.encabezado{
+    background-image: url(../assets/images/cabecera.jpg);
+    color: aliceblue;
+    height: 490px;
+    background-size: 140%;
+    background-position: 0px 42%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.encabezado h1{
+    font-size: 60px;
+}
+
+.encabezado p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*Section email*/
+.email{
+    background-color: #191c1f;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input{
+    display: flex;
+}
+
+.email-input{
+    width: 300px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+.email button{
+    color: white;
+    background-color: #ff4213;
+    padding: 10px;
+}
+
+/*CUERPO TARJETAS*/
+.cuerpo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cuerpo_info{
+    text-align: center;
+    padding: 10px
+}
+
+.cuerpo_info img{
+    width: 80px;
+}
+
+.cuerpo_info h3{
+    padding: 10px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #0882c9;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
