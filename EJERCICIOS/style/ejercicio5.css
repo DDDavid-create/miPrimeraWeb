@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 50px;
+    background-color: #f1f1ee;
+    text-align: center;
+    padding: 30px;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+nav{
+    width: 60vh;
+    background-color: #bbbbb9;
+}
+
+article{
+    width: 120vh;
+    background-color: #aaaaa8;
+}
+
+article h2{
+    font-size: 35px;
+    text-align:left
+}
+
+article p{
+    font-size: 15px;
+}
+
+aside{
+    width: 60vh;
+    background-color: #ccccca;
+}
+
+footer{
+    background-color: #f1f1ee;
+    text-align: center;
+    padding: 20px;
+}
