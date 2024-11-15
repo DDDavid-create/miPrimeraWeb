@@ -190,3 +190,18 @@ footer{
 .aside-servicios h3{
     margin-bottom: 20px;
 }
+
+/*CONTACTOS SECTION*/
+
+.caja-contacto{
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form{
+    width: 400%;
+}
